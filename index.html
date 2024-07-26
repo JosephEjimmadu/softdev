@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Design Forge</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        ul {
+            list-style: none;
+            display: flex;
+            align-items: center;
+            background-color: white;
+            color: royalblue;
+            font-size: small;
+            font-weight: bold;
+        }
+
+        li {
+            margin: 1em;
+            margin-top: 20px;
+        }
+
+        #logo {
+            margin-right: 150px;
+
+        }
+
+        ul button {
+            float: right;
+            color: white;
+            background-color: royalblue;
+            border: none;
+            border-radius: 5px;
+            display: flex;
+            justify-content: center;
+            margin-left: 50px;
+            /*to move the button to the left side*/
+            font-size: 10px;
+            min-width: 80px;
+            min-height: 20px;
+            align-items: center;
+        }
+
+        #logo-text {
+            position: absolute;
+            left: 50px;
+            font-weight: bold;
+            font-size: medium;
+        }
+
+        h1 {
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            color: royalblue;
+            margin-left: 100px;
+        }
+
+        #artWork-btn {
+            color: white;
+            background-color: royalblue;
+            font-size: 10px;
+            min-width: 80px;
+            min-height: 20px;
+            border: none;
+            border-radius: 5px;
+            margin-left: 100px;
+            margin-bottom: 100px;
+        }
+
+        #artist-btn {
+            color: white;
+            background-color: royalblue;
+            font-size: 10px;
+            min-width: 80px;
+            min-height: 20px;
+            border: none;
+            border-radius: 5px;
+            margin-left: 20px;
+            margin-bottom: 50px;
+        }
+
+        #graph-text-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        #header-text1 {
+
+            position: absolute;
+
+        }
+
+        #backgroung-image {
+            margin-left: 500px;
+            height: 250px;
+            align-items: center;
+        }
+
+        #about-designforge-container {
+            text-align: center;
+            color: royalblue;
+        }
+
+        #about-header {
+            padding-bottom: 20px;
+        }
+
+        #footer-div {
+            /* flex-direction: column;
+            align-items: center; */
+            display: flex;
+            justify-items: center;
+            align-items: center;
+            color: royalblue;
+            padding-top: 50px;
+        }
+
+        .footer-div2 {
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .class-artist-text {
+            display: block;
+            margin-left: 250px;
+            padding-top: 10px;
+        }
+
+        #artist-icon {
+            margin-left: 250px;
+
+        }
+
+        #artist-text {
+            margin-left: 250px;
+        }
+
+
+        .class-artwork-text {
+            display: block;
+            margin-left: 100px;
+            padding-top: 10px;
+        }
+
+        #artwork-icon {
+            display: block;
+            margin-left: 100px;
+
+        }
+
+        #artwork-text {
+            margin-left: 100px;
+        }
+
+
+        .class-onlineEx-text {
+            display: block;
+            margin-left: 100px;
+            padding-top: 10px;
+
+        }
+
+        #onlineEx-icon {
+            display: block;
+            margin-left: 90px;
+        }
+
+        #onlineEx-text {
+            display: block;
+            padding-top: 8px;
+            margin-left: 60px;
+        }
+
+        .class-experience-text {
+            /* padding-left: 50px; */
+
+            display: block;
+            margin-left: 300px;
+            padding-top: 10px;
+            padding-right: 50px;
+        }
+
+
+        #experience-icon {
+            display: block;
+            margin-left: 60px;
+        }
+
+        #experience-text {
+            display: block;
+            padding-top: 8px;
+            margin-left: 60px;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <ul>
+            <li id="logo"><img src="./images/logo.png" alt="logo"></li>
+            <li id="logo-text">DesignForge</li>
+            <li>About</li>
+            <li>Featured Artwork</li>
+            <li>Artist Spotlight</li>
+            <li>Resources and Tutorials</li>
+            <li>Testimonials</li>
+            <button>Log in</button>
+        </ul>
+    </div>
+
+    <div>
+        <div>
+            <div id="graph-text-container">
+                <h1 id="header-text1">Unveiling the mastery
+                    <br>behind every pixel's life
+                    <br>Tour our digital art
+                    <br>paradise!
+                </h1>
+                <img id="backgroung-image" src="./images/background.png" alt="3D-object">
+
+            </div>
+            <div>
+                <button id="artWork-btn">See Artwork</button>
+                <button id="artist-btn">Meet Artists</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="about-designforge-container">
+        <h4 id="about-header">ABOUT DESIGNFORGE</h4>
+        <P>
+            Where creativity knows no bound and digital arts takes center stage. At DesignForge, we believe in the <br>
+            power
+            of imagination
+            to transform pixels into masterpieces, and we're passionate about fostering a <br> vibrant community of
+            didgital
+            artists, designers and enthusiast from around the globe.
+        </P>
+    </div>
+
+    <div id="footer-div">
+        <div class="footer-div2">
+            <img src="./images/artist.png" alt="artist-png" id="artist-icon">
+            <p id="artist-text">Artist</p>
+            <p class="class-artist-text">100 +</p>
+        </div>
+
+
+        <div class="footer-div2">
+            <img src="./images/artwork.png" alt="artwork-png" id="artwork-icon">
+            <p id="artwork-text">Artwork</p>
+            <p class="class-artwork-text">200</p>
+        </div>
+
+
+        <div class="footer-div2">
+            <img src="./images/online exhibition.png" alt="onlineEx-png" id="onlineEx-icon">
+            <p id="onlineEx-text">Online Exhibition</p>
+            <p class="class-onlineEx-text">10</p>
+        </div>
+
+
+
+        <div class="footer-div2">
+            <img src="./images/experience.png" alt="experience-png" id="experience-icon">
+            <p id="experience-text">Experience</p>
+            <p class="class-experience-text">2 yrs</p>
+        </div>
+
+
+
+    </div>
+</body>
+
+</html>
